@@ -4,8 +4,8 @@ source ./utils.sh
 
 e_header "Setting some git config defaults"
 
-git config --global user.name "Quentin Ducasse"
-git config --global user.email "quentin.ducasse@ensta-bretagne.org"
+git config --global user.name "Stéphane Ducasse"
+git config --global user.email "stephane.ducasse@inria.fr"
 git config --global color.diff-highlight.oldNormal "red bold"
 git config --global color.diff-highlight.oldHighlight "red bold 52"
 git config --global color.diff-highlight.newNormal "green bold"
