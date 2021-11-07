@@ -49,33 +49,13 @@ if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
   source ./install/ruby.sh
 fi
 
-echo ""
-echo "Install python and versions?  (y/n)"
-read -r response
-if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
-  source ./install/python.sh
-fi
+#echo ""
+#echo "Install python and versions?  (y/n)"
+#read -r response
+#if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
+#  source ./install/python.sh
+#fi
 
-echo ""
-echo "Install Go and latest version?  (y/n)"
-read -r response
-if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
-  source ./install/go.sh
-fi
-
-echo ""
-echo "Install node and nvm?  (y/n)"
-read -r response
-if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
-  source ./install/node.sh
-fi
-
-echo ""
-echo "Install npm?  (y/n)"
-read -r response
-if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
-  source ./install/npm.sh
-fi
 
 echo ""
 echo "Install git config?  (y/n)"
@@ -91,8 +71,8 @@ if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
   source ./install/fonts.sh
 fi
 
-for app in "Activity Monitor" "cfprefsd" \
-  "Dock" "Finder" "Google Chrome" "Messages" \
-  "Spectacle" "SystemUIServer"; do
-  killall "${app}" &> /dev/null
-done
+#for app in "Activity Monitor" "cfprefsd" \
+#  "Dock" "Finder" "Google Chrome" "Messages" \
+#  "Spectacle" "SystemUIServer"; do
+#  killall "${app}" &> /dev/null
+#done
