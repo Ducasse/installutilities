@@ -36,7 +36,6 @@ binaries=(
 
 e_arrow "Installing brew packages"
 
-# brew install TomAnthony/brews/itermocil # Don't use it as much as I'd like
 for binary in "${binaries[@]}"; do
   brew install $binary
 done
