@@ -14,7 +14,7 @@ apps=(
   atom
   balenaetcher
   brave-browser
-  cd-to
+  openinterminal
   daisydisk
   discord
   emacs
