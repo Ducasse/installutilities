@@ -15,6 +15,7 @@ apps=(
   balenaetcher
   brave-browser
   openinterminal
+  openinterminal-lite
   daisydisk
   discord
   emacs
@@ -47,6 +48,9 @@ brew cask install qlcolorcode \
   qlvideo
 
 e_arrow "Setting Brave Browser as the default browser"
+
+# For OpenInTerminal-Lite:
+defaults remove wang.jianing.app.OpenInTerminal-Lite LiteDefaultTerminal
 
 #open -a "Brave Browser" --args --make-default-browser
 
