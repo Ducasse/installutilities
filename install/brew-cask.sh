@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source ./utils.sh
+source .././utils.sh
 
 e_header "Installing brew cask apps"
 
