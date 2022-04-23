@@ -23,13 +23,13 @@ binaries=(
   #glances                               # https://github.com/nicolargo/glances
   graphicsmagick                        # very powerful image processor
   hub                                   # GitHub CLI tool
-  htop                                  # The best process monitor
+  #htop                                  # The best process monitor
   imagemagick                           # another image processor
-  m-cli                                 # macos tool https://github.com/rgcr/m-cli
-  ncdu                                  # ncurses disk usage https://dev.yorhel.nl/ncdu
+  #m-cli                                 # macos tool https://github.com/rgcr/m-cli
+  #ncdu                                  # ncurses disk usage https://dev.yorhel.nl/ncdu
    #pyenv                                 # manage python versions easily https://github.com/pyenv/pyenv
   #pyenv-virtualenv                      # manage virtualenvs for different python versions https://github.com/pyenv/pyenv-virtualenv
-   tree                                  # fast recursive directory listing tool http://mama.indstate.edu/users/ice/tree/
+  tree                                  # fast recursive directory listing tool http://mama.indstate.edu/users/ice/tree/
   wget                                  # up-to-date wget
   youtube-dl                            # download a youtube (or other) video by URL or ID https://rg3.github.io/youtube-dl/
 )
