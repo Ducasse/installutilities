@@ -12,20 +12,16 @@ e_arrow "Installing cask apps"
 
 apps=(
   atom
-  balenaetcher
   brave-browser
   openinterminal
   openinterminal-lite
   daisydisk
   discord
   emacs
-  firefox
   texshop
   flycut
   google-chrome
   iterm2
-  kap
-  ngrok
   plex-media-player
   transmission
   transmit
@@ -53,5 +49,9 @@ e_arrow "Setting Brave Browser as the default browser"
 defaults remove wang.jianing.app.OpenInTerminal-Lite LiteDefaultTerminal
 
 #open -a "Brave Browser" --args --make-default-browser
+
+#ngrok network
+#kap screen capture
+# firefox
 
 e_success "Done!"
