@@ -6,7 +6,7 @@ e_header "Installing brew cask apps"
 
 e_arrow "Installing cask and tapping"
 
-brew tap caskroom/versions
+brew tap homebrew/cask-versions
 
 e_arrow "Installing cask apps"
 
@@ -29,7 +29,7 @@ apps=(
   vlc
 )
 for app in "${apps[@]}"; do
-  brew cask install $app
+  brew install $app
 done
 
 e_arrow "Installing QuickLook plugins"
