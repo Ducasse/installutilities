@@ -11,7 +11,7 @@ This repository is based on *brandonb927*'s [dotfiles](https://github.com/brando
 Clone the repository and run the main files `bootstrap.sh` for utilities and app installations or `macos.sh` for macOS customisation.
 
 ```bash
-$ git clone https://github.com/Ducasse/install_utilities.git
+$ git clone git@github.com:Ducasse/installutilities.git
 $ cd install_utilities
 $ sh bootstrap.sh
 $ sh macos.sh
